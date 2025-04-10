@@ -28,7 +28,7 @@ export const Contact = () => {
     setButtonText("Sending...");
     
     try {
-      const response = await fetch('http://localhost:7777/api/contact', {
+      const response = await fetch('https://portfolio-yyxx.onrender.com/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
